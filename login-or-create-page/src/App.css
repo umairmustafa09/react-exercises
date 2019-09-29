@@ -1,0 +1,13 @@
+button{
+  background-color: #FAE8A3;
+  color: #7E5935;
+  height: 40px;
+  width: 150px;
+  outline:  none;
+  border-radius: 50px;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid #7E5935;
+  font-weight: bold;
+}
