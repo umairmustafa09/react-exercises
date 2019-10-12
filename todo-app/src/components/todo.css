@@ -1,22 +1,11 @@
 .container{
     text-align: center;
-    border: 1px solid black;
     border-radius: 5%;
     padding: 20px;
     margin: 20px;
     font-size: 25px;
-    width: 330px;
+    width: 530px;
 }
-/* .signInUp{
-    border: 1px solid black;
-    border-radius: 5%;
-    padding: 20px;
-    margin: 20px;
-    font-size: 25px;
-    text-align: center;
-    width: 330px;
-    float: right;
-} */
 .container > input {
     background-color: #EAE7E7;
     border: 1px solid #cdcccc;
@@ -25,35 +14,39 @@
     outline: none;                
     color: #909090;
     height: 40px;
-    width: 300px;
+    width: 500px;
     margin-bottom: 10px;
  }
  .container> button{
-     background-color: #FAE8A3;
-     color: #7E5935;
+    background-color: white;
+    color: #7E5935;
      height: 40px;
-     width: 150px;
+     width: 250px;
      outline:  none;
-     border-radius: 50px;
      position: relative;
      margin-top: 10px;
-     border: 1px solid #7E5935;
      font-weight: bold;
  }
- /* .signInUp > form > p{
-    float: left;
-}
-.signInUp > form > p > a{
-    color: black;
-}
-.row{
+ .para > p{
+    border-bottom: 1px solid #cdcccc;
+    font-size: 20px;
+    font-family: 'Courier New';
+    outline: none;                
+    color: rgb(131, 126, 75);
+    width: 500px;
     position: relative;
-}
-p > a{
+    text-align: left;
+    left: 5px;
+    padding-left: 10px;
+ }
+ .para > p > button{
+    background-color: white;
+    color: #7E5935; 
+    height: 20px;
+    width: 80px;
+    margin: 1px;
+    outline:  none;
     position: relative;
-    bottom: 10px;
-    font-size: 15px;
-    color: black;
-    margin-left: 20px;
-    text-decoration: none;
-} */
+    margin-top: 10px;
+    font-weight: bold; 
+ }
