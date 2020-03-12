@@ -1,0 +1,51 @@
+.chatInbox {
+	position: absolute;
+	bottom: 0;
+	left: 38%;
+	margin-bottom: 0;
+	border-radius: 5%;
+	padding: 20px;
+	margin: 20px;
+	font-size: 25px;
+	width: 530px;
+}
+.chatInbox > input {
+	background-color: #eae7e7;
+	border: 1px solid #cdcccc;
+	border-radius: 5px;
+	padding-left: 20px;
+	outline: none;
+	color: #909090;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.para {
+	overflow-y: scroll;
+	height: 80vh;
+}
+.para > p {
+	border-bottom: 1px solid #cdcccc;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	outline: none;
+	color: rgb(131, 126, 75);
+	width: 500px;
+	position: relative;
+	text-align: left;
+	left: 5px;
+	padding-left: 10px;
+}
+
+.para > p > span {
+	font-size: 12px;
+}
+.sidebar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 38%;
+	height: 100%;
+	color: white;
+	background-color: #0b547e;
+}
